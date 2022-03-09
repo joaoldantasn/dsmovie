@@ -1,5 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
 * {
+  /*Para que a borda dos elementos não ocupe area */
+  box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+}
+
+html,
+body {
+  background-color: #ddd;
+}
+
+header {
+  background-color: #4d41c0;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
 }
